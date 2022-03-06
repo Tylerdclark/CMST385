@@ -77,6 +77,7 @@ td h2 {
     text-align: center;
 }
 
+
 /*********** Navbar **********/
 
 .navbar {
@@ -199,6 +200,10 @@ input:checked + .slider:before {
 }
 .btn:hover {
     background-color: var(--secondary-color);
+}
+
+.caption{
+    text-align: center;
 }
 
 /*********** Home **********/
