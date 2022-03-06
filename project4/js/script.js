@@ -9,10 +9,10 @@ if (currentTheme) {
     if (currentTheme === "dark") {
         toggleSwitch.checked = true;
         document.getElementsByClassName("logo")[0].querySelector("img").src =
-            "img/bw-icon.png";
+            "./img/bw-icon.png";
     } else {
         document.getElementsByClassName("logo")[0].querySelector("img").src =
-            "img/icon.png";
+            "./img/icon.png";
     }
 }
 
