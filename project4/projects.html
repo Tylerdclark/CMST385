@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyler Clark's Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+<body>
+    <!-- container div -->
+    <div class="container">
+
+        <!-- header -->
+        <header>
+            <!-- nav -->
+            <nav class="navbar">
+                <a href="https://tylerdclark.dev/" class="logo">
+                    <img src="img/bw-icon.png" alt="Tyler's logo">
+                </a>
+
+                <ul class="nav-links">
+                    <li class="nav-item"><a href="/index.html">Home</a></li>
+                    <li class="nav-item"><a href="/about.html">About</a></li>
+                    <li class="nav-item"><a href="/work.html">Work</a></li>
+                    <li class="nav-item"><a href="/contact.html">Contact</a></li>
+                    <li class="nav-item"><a href="/projects.html">Projects</a></li>
+                </ul>
+                <!-- dark mode switch -->
+                <div class="theme-switch-wrapper">
+                    <label class="theme-switch" for="checkbox">
+                        <input type="checkbox" id="checkbox" />
+                        <span class="slider round"></span>
+                    </label>
+                    <p>Dark Mode</p>
+                </div>
+            </nav>
+            <!-- end nav -->
+        </header>
+        <!-- end header -->
+
+        <!-- content container -->
+        <div class="content-container">
+            <!-- content -->
+            <div class="wrapper">
+
+                <table id="project-container">
+                    <tr>
+                        <td>
+                            <img src="img/projects/website.png" alt="Tyler's old website">
+                            <h2>Tylerdclark.dev</h2>
+                            <p>A personal website made with HTML, CSS, and JavaScript. For this project, I used the p5.js library for the background
+                                animation loop. The animation was created using the Marching squares algorithm and OpenSimplex noise function
+                            </p>
+                            <div class="btn-container">
+                                <a class="btn" href="https://github.com/Tylerdclark/tyler-page">View Project</a>
+                            </div>
+                        
+                        </td>
+                        <td>
+                            <img src="img/projects/3d-asteroids.png" alt="3D asteroid game">
+                            <h2>3d-asteroids</h2>
+                            <p>A 3D asteroid game made with Unity3D and C#. You are a ship in space and are shooting/avoiding asteroids. One hit and 
+                                you're a goner! The game makes use of ray-tracing, game objects, and coroutines.
+                            </p>
+                            <div class="btn-container">
+                                <a class="btn" href="https://github.com/Tylerdclark/3D-Asteroids">View Project</a>
+                                <a class="btn" href="https://tylerdclark.github.io/3D-Asteroids/">Play Project</a>
+                            </div>
+                            
+                        </td>
+                        <td>
+                            <img src="img/projects/T-Tickets.png" alt="T-Tickets application">
+                            <h2>T-Tickets</h2>
+                            <p>Command Line Interface (CLI) application that allows the user to create and track tickets. made with JavaScript 
+                                (Node.js) and uses JSON to store the tickets. 
+                            </p>
+                            <div class="btn-container">
+                                <a class="btn" href="https://github.com/Tylerdclark/T-Tickets">View Project</a>
+                            </div>
+                        </td>
+                        <td>
+                            <img src="img/projects/traffic-sim.png" alt="Traffic sim application">
+                            <h2>Traffic Simulator</h2>
+                            <p>A traffic simulation application made with Java Swing. This application uses a grid of cells to simulate traffic.
+                                The traffic lights, cars, and timer are made using SwingWorkers. SwingWorkers allow for the application to run in the
+                                background while the user can interact with the application.
+                            </p>
+                            <div class="btn-container">
+                                <a class="btn" href="https://github.com/Tylerdclark/CMSC335/blob/main/project3/doc/project3.md">View Project</a>
+                            </div>
+                        </td>
+                </table>
+            </div>
+            <!-- end wrapper -->
+        </div>
+        <!-- end content container -->
+        <!-- footer -->
+        <footer>
+            <!-- footer content -->
+            <p> Author: Tyler Clark <a href="https://github.com/Tylerdclark"> GitHub</a></p>
+        </footer>
+        <!-- end footer -->
+    </div>
+    <!-- end container div -->
+    <script src="js/script.js"></script>
+</body>
+</html>
